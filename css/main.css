@@ -1,0 +1,64 @@
+/* Estilos Generales */
+body {
+  height: 100%; }
+
+.logo {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 200px; }
+  .logo:hover {
+    transform: translateY(-5px);
+    animation: moverlogo 1.5s infinite; }
+
+@keyframes moverlogo {
+  50% {
+    transform: translateY(6px); } }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Architects Daughter', cursive; }
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Architects Daughter', cursive; }
+
+ul li {
+  list-style: none; }
+
+/* -----------------  Index   ------------ */
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; }
+  .inicio img {
+    display: flex;
+    height: 30rem;
+    width: 80rem; }
+
+.marcoFoto {
+  border: solid 1px gray;
+  margin-bottom: 20px; }
+
+.imgIndex {
+  height: 20rem;
+  width: 20rem;
+  transition: all 0.8s; }
+  .imgIndex:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 100; }
+
+/* -------   Footer ----- */
+.logoFooter {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px; }
