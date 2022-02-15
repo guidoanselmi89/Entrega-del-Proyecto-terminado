@@ -1,17 +1,16 @@
 /* -----------------  Index   ------------ */
 
 .inicio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
 
-    img{
-        display: flex;
-        height: 30rem;
-        width: 80rem;   
-    }
+    @extend %imagenInicio
+
 }
+
+.inicio img{
+    display: flex;
+    height: 30rem;
+    width: 80rem;    
+ }
 
 .marcoFoto{
     border: solid 1px gray;
