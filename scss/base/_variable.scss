@@ -1,4 +1,6 @@
-$backgroundBotones: rgb(252,191,234);
+$bgBotones: rgb(252,191,234);
+
+/*------- Extend ------*/
 
 %imagenInicio {
     display: flex;
@@ -6,3 +8,19 @@ $backgroundBotones: rgb(252,191,234);
    align-items: center;
    margin-bottom: 20px;
 }
+
+@mixin mediaQuery ($medidaPantalla) {
+
+    @if $medidaPantalla == mobile {
+        @media only screen and (max-width:599px){
+            @content;
+        }
+
+    }@else {
+        @media only screen and (max-width:799px){
+            @content;
+        }
+    }
+
+};
+

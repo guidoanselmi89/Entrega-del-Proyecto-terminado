@@ -1,3 +1,4 @@
+/*------- Extend ------*/
 .inicio {
   display: flex;
   justify-content: center;
@@ -29,13 +30,13 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
-  font-family: 'Architects Daughter', cursive; }
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 h2 {
   font-size: 35px;
   text-align: center;
   margin-bottom: 50px;
-  font-family: 'Architects Daughter', cursive; }
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 ul li {
   list-style: none; }
@@ -67,3 +68,15 @@ a {
   height: 60px;
   width: 60px;
   border-radius: 30px; }
+
+/* ----  medias Query ----- */
+@media only screen and (max-width: 599px) {
+  .logo {
+    height: 150px;
+    width: 150px; }
+  .inicio img {
+    display: none; } }
+
+@media only screen and (max-width: 799px) {
+  .inicio img {
+    display: none; } }

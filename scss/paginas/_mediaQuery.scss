@@ -1,0 +1,19 @@
+/* ----  medias Query ----- */
+
+@include mediaQuery (mobile){
+    .logo{
+        height: 150px;
+        width: 150px;
+    }
+ 
+    .inicio img{
+        display: none;
+    } 
+
+}
+
+@include mediaQuery (tablet){
+    .inicio img{
+        display: none;
+    } 
+}

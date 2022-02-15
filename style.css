@@ -48,15 +48,16 @@ h1{
    font-size: 40px;
    text-align: center;
    margin-bottom: 50px;
-   font-family: 'Architects Daughter', cursive;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 h2{
    font-size: 35px;
    text-align: center;
    margin-bottom: 50px;
-   font-family: 'Architects Daughter', cursive;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
 }
+
 
 .marcoFoto{
    border: solid 1px gray;
@@ -106,7 +107,7 @@ button a{
 
 .carusel-text{
    font-size: 20px;
-   font-family: sans-serif;
+   font-family: Verdana, Geneva, Tahoma;
    margin-top: 30px;
 }
 
