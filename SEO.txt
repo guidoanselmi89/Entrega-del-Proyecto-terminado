@@ -1,0 +1,34 @@
+En el desafío de SEO agregué:
+
+-En el meta keywords index.html las siguientes palabras:
+smartwatch, relojes inteligentes, relos deportivos, moda, deporte, contador de pasos, salud, Monitoreo de salud.
+En el meta Description: En Pritechno te brindamos la mejor calidad de relojes inteligentes importados. Todos nuestros productos tienen garantía de 3 meses.
+
+-En el meta keywords smartwatch.html las siguientes palabras:
+smartwatch, relojes inteligentes, relos deportivos, moda, deporte, contador de pasos, salud, Monitoreo de salud, modelos, smartwatch hw12, smartwatch w26, smartwatch band6, smartwatch d20.
+En el meta Description:
+En esta sección encontrarás los mejores modelos de smartwatch en stock con entrega en 24hs.
+
+-En el meta keywords contacto.html las siguientes palabras:
+smartwatch, relojes inteligentes, relos deportivos, moda, deporte, contador de pasos, salud, Monitoreo de salud, contacto, información.
+En el meta Description:
+Contáctate en línea directa con los dueños de la tienda online para tener una atención personalizada a tu medida.
+
+
+-En el meta keywords combos.html las siguientes palabras:
+smartwatch, relojes inteligentes, relos deportivos, moda, deporte, contador de pasos, salud, Monitoreo de salud, combos de relojes, ofertas.
+En el meta Description:
+Encontrá las mejores combinaciones de Smartwatches y llévate el mejor combo hecho a tu medida.
+
+-En el meta keywords precios.html las siguientes palabras:
+smartwatch, relojes inteligentes, relos deportivos, moda, deporte, contador de pasos, salud, Monitoreo de salud, precios, valores.
+En el meta Description:
+Compara los precios de Pritechno21 con las mejores tiendas online del mercado por vos mismo/a.
+
+
+-Además se agrego el título en el head que identifica a cada página del sitio, también se jerarquizo a cada título de los HTML renombrando algunos h1 que no estaban puestos. Por último se realizo el site Map en XML-sitemaps.com.
+
+
+
+
+

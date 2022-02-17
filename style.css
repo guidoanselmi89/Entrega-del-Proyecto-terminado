@@ -97,7 +97,7 @@ main{
    align-items: flex-end;
    width: 50%;
    font-size: 20px;
-   font-family: sans-serif;
+   font-family: fantasy;
 }
 
 button a{
@@ -131,6 +131,10 @@ button a{
 
 .bg-rosa{
    background-color:rgb(252,191,234) ;
+}
+
+#formulario-contacto{
+   margin-bottom: 30px;
 }
 
 /*solo footer  */

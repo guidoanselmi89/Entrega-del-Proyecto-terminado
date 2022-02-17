@@ -1,4 +1,4 @@
-$bgBotones: rgb(252,191,234);
+
 
 /*------- Extend ------*/
 
@@ -24,3 +24,9 @@ $bgBotones: rgb(252,191,234);
 
 };
 
+$colores: (
+  botones:  rgb(252,191,234),
+  primario: rgb(153, 150, 150),
+  hover-primario: lighten(rgb(109, 108, 108), 20),
+  hover-secundario: darken(blue, 50),
+)
