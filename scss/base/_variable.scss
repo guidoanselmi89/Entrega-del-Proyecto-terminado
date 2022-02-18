@@ -3,10 +3,10 @@
 /*------- Extend ------*/
 
 %imagenInicio {
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 20px;
+    background-image: url(../../imagenes/imagenFondo.JPG);
+    background-size: cover;
+    margin-bottom: 10rem;
+    height: 40rem;
 }
 
 @mixin mediaQuery ($medidaPantalla) {
@@ -27,6 +27,6 @@
 $colores: (
   botones:  rgb(252,191,234),
   primario: rgb(153, 150, 150),
-  hover-primario: lighten(rgb(109, 108, 108), 20),
-  hover-secundario: darken(blue, 50),
+  hover-primario: lighten(rgb(73, 73, 73), 20),
+  hover-secundario: darken(rgb(0, 0, 0), 50),
 )

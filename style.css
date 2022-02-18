@@ -75,6 +75,13 @@ h2{
 
 /* smartwatch html */
 
+.fondo{
+   background-image: url(./imagenes/imagenFondo.JPG);
+   background-size: cover;
+   margin-bottom: 10rem;
+   height: 40rem;
+}
+
 
 main{
    display: flex;
@@ -97,7 +104,7 @@ main{
    align-items: flex-end;
    width: 50%;
    font-size: 20px;
-   font-family: fantasy;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button a{
@@ -107,25 +114,34 @@ button a{
 
 .carusel-text{
    font-size: 20px;
-   font-family: Verdana, Geneva, Tahoma;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    margin-top: 30px;
 }
 
 .carousel{
+   border: ridge 5px rgb(252,191,234);
    width: 30%;
    margin-bottom: 30px;
 }
 
 .carousel img{
-   height: 300px;
-   width: 300px;
+   height: 30rem;
+   width: 30rem;
 }
 
-/* combos html */
- .card-group{
-    margin-bottom: 5rem;
- }
+.card-group{
+   margin-bottom: 5rem;
+}
 
+/* auriculares html */
+
+.auri{
+   height: 20rem;
+   width: 20rem;
+}
+.auri-bajo{
+   margin-bottom: 5rem;
+}
 
 /* contacto html */
 
@@ -161,6 +177,13 @@ button a{
    .inicio img{
        display: none;
    } 
+   .presentacionTexto{
+      display: none;
+   }
+
+   .presentacionVideo{
+      width: 100%;
+   }
 
 }
 
@@ -169,5 +192,9 @@ button a{
    .inicio img{
        display: none;
    } 
+
+   
 }
+
+   
 

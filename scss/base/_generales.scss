@@ -34,7 +34,7 @@ h1{
     margin-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     &:hover{
-        color: map-get($colores , hover-primario);
+        color: map-get($colores , hover-secundario);
     }
 }
 
