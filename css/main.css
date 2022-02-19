@@ -1,5 +1,5 @@
 /*------- Extend ------*/
-.fondo, .inicio {
+.fondo {
   background-image: url(../imagenes/imagenFondo.JPG);
   background-size: cover;
   margin-bottom: 10rem;
