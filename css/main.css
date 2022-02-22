@@ -59,9 +59,6 @@ ul li {
 a {
   text-decoration: none; }
 
-.bg-rosa {
-  color: #fcbfea; }
-
 /* -----------------  Index   ------------ */
 .marcoFoto {
   border: solid 1px gray;
@@ -82,16 +79,19 @@ a {
   display: flex;
   margin: 10px;
   gap: 30px; }
-  .presentacion .presentacionVideo {
-    width: 50%; }
-  .presentacion .presentacionTexto {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 50%;
-    font-size: 20px; }
-  .presentacion button {
-    color: black; }
+
+.presentacionVideo {
+  width: 50%; }
+
+.presentacionTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  font-size: 20px; }
+
+button {
+  color: black; }
 
 .carusel-text {
   font-size: 20px;
