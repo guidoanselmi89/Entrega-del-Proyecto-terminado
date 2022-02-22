@@ -125,8 +125,8 @@ button a{
 }
 
 .carousel img{
-   height: 30rem;
-   width: 30rem;
+   height: 400px;
+   width: 700px;
 }
 
 .card-group{
@@ -135,10 +135,6 @@ button a{
 
 /* auriculares html */
 
-.auri{
-   height: 20rem;
-   width: 20rem;
-}
 .auri-bajo{
    margin-bottom: 5rem;
 }
@@ -174,9 +170,6 @@ button a{
        width: 150px;
    }
 
-   .inicio img{
-       display: none;
-   } 
    .presentacionTexto{
       display: none;
    }
@@ -184,15 +177,27 @@ button a{
    .presentacionVideo{
       width: 100%;
    }
+  
 
 }
 
-@media only screen and (max-width:799px){
+@media only screen and (min-width:600px){
 
-   .inicio img{
+   .boton-movil{
        display: none;
    } 
-
+   .auri{
+      height: 20rem;
+      width: 20rem;
+   }
+   .auri:hover{
+     transform: rotatey(360deg);
+      transition: 2s ease-in-out;
+   }
+   .sombra-auri{
+      border: solid 1px grey;
+      box-shadow: 5px 5px 10px;
+   }
    
 }
 

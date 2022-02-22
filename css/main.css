@@ -57,6 +57,8 @@ a {
 .marcoFoto {
   border: solid 1px gray;
   margin-bottom: 20px; }
+  .marcoFoto div {
+    box-shadow: 5px 5px 10px; }
 
 .imgIndex {
   height: 20rem;
