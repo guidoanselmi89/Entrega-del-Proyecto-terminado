@@ -1,0 +1,45 @@
+/* -------------- Smartwatch -------------- */
+
+main{
+    @extend %main-propiedades
+}
+
+.presentacion{
+    display: flex;
+    margin: 10px;
+    gap: 30px;
+    .presentacionVideo{
+        width: 50%;
+    }
+    .presentacionTexto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        font-size: 20px;
+     }
+     button{
+        color: black;
+     }
+ }
+
+ .carusel-text{
+    font-size: 20px;
+    margin-top: 30px;
+ }
+ .carousel{
+    border: ridge 5px rgb(252,191,234);
+    width: 30%;
+    margin-bottom: 30px;
+    img{
+        height: 400px;
+        width: 700px;
+    }
+ }
+
+ .bg-rosa{
+    background-color:rgb(252,191,234) ;
+ }
+ .card-group{
+    margin-bottom: 5rem;
+ }

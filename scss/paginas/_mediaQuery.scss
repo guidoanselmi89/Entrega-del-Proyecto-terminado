@@ -6,14 +6,31 @@
         width: 150px;
     }
  
-    .inicio img{
+    .presentacionTexto{
         display: none;
-    } 
+     }
+  
+     .presentacionVideo{
+        width: 100%;
+     }
 
 }
 
-@include mediaQuery (tablet){
-    .inicio img{
+@include mediaQuery (desktop){
+    .boton-movil{
         display: none;
     } 
+
+     .auri{
+      height: 20rem;
+      width: 20rem;
+      &:hover{
+        transform: rotatey(360deg);
+        transition: 2s ease-in-out;
+      }
+   }
+   .sombra-auri{
+    border: solid 1px grey;
+    box-shadow: 5px 5px 10px;
+ }
 }
